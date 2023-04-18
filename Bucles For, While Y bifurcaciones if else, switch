@@ -1,0 +1,43 @@
+//bucle for
+for (let i = 0; i < 10; i++) {
+    console.log(i)
+}
+
+//bucle while
+let a = 0;
+let b = 10;
+while (a < b) {
+    a++
+    console.log(a)
+}
+
+//bucle while, bifurcacion if y break
+let saldo = 10;
+if(saldo >= 10) {
+    console.log("Retiro de efectivo aceptado")
+} else {
+    console.log("Dinero insuficiente")
+}
+
+let i = 0;
+let max = 10;
+while(i < max) {
+    i++
+    console.log(i)
+}
+
+let puntos = 100;
+
+switch (puntos) {
+    case 100:
+        console.log("Obtuviste el máximo de puntos, ¡Enhorabuena!")
+        break;
+    case 50:
+        console.log("Casi obtienes el máximo")
+        break;
+    case 0:
+        console.log("No tienes puntos.")
+        break;
+    default:
+        console.log("Error")
+}
