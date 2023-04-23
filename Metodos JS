@@ -1,0 +1,19 @@
+let nombre = " Dickson";
+let apellido = " Celauro";
+let estudiante = "Estudiante";
+console.log(estudiante.concat(nombre + apellido)); //metodo concat para unir strings
+
+let estudianteMayus = "estudiante";
+let estudianteMinus = "estudiante";
+console.log(estudianteMayus.toUpperCase()); //metodo para volver un string mayuscula
+console.log(estudianteMinus.toLowerCase()); // metodo para volver un string minuscula
+
+let palabra = " Estudiante ";
+console.log(palabra.length); //metodo para contar las letras de una palabra contando espacios
+
+console.log(nombre.charAt(1)); //metodo para contar la letra de la posicion que pidamos
+console.log(apellido.charAt(7)); // lo mismo que arriba
+
+console.log(estudiante.trim().length); //metodo para contar las letras de un texto eliminando espacios
+
+console.log(estudiante.includes(nombre)); //metodo para preguntar si una palabra esta incluida en una variable
